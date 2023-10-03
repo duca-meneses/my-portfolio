@@ -4,7 +4,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#fff]'>
+    <div name='home' className='w-full h-screen bg-white'>
     
         {/*Container*/}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -15,9 +15,9 @@ const Home = () => {
         <div>
             <button className='text-[#0a192f] group font-bold border-2 border-[#0a192f] px-6 py-3 flex items-center hover:bg-[#0a192f] hover:text-white'>
                 Veja meus projetos
-            <span className='group-hover:rotate-90 duration-300'>
-                <HiArrowNarrowRight className='ml-3' />  
-            </span>
+                <span className='group-hover:rotate-90 duration-300'>
+                    <HiArrowNarrowRight className='ml-3' />  
+                </span>
             </button>
         </div>
         </div>
